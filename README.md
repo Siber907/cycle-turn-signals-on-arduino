@@ -18,3 +18,7 @@
 #define   TURN_INDICATOR_COLOR ((uint32_t) 0x00090300) // цвет и яркость поворотников на повторителе.
 
 #define   STOP_INDICATOR_COLOR ((uint32_t) 0x00100000) // цвет и яркость стопа на повторителе.
+
+#define   TURN_SHOW_DELAY      30 // время смены кадров поворотников
+
+#define   STOP_SHOW_DELAY      180 // время смены кадров стоп сигналов
