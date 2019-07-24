@@ -5,19 +5,19 @@
 #define   TURN_RIGHT_PIN       4
 
 
-#define   TURN_LEFT_PIXEL_NUM              13 //кол-во LED на левый поворот
+#define   TURN_LEFT_PIXEL_NUM              29 //кол-во LED на левый поворот
 #define   TURN_RIGHT_PIXEL_NUM             TURN_LEFT_PIXEL_NUM //кол-во LED на правый поворот
-#define   STOP_PIXEL_NUM                   (TURN_LEFT_PIXEL_NUM + TURN_RIGHT_PIXEL_NUM)//16 //кол-во LED на стоп
-#define   SIDE_PIXEL_NUM                   STOP_PIXEL_NUM//16 //кол-во LED на габариты
-#define   TURN_RIGHT_INDICATOR_PIXEL_NUM   3
-#define   TURN_LEFT_INDICATOR_PIXEL_NUM    3
-#define   STOP_INDICATOR_PIXEL_NUM         2
+#define   STOP_PIXEL_NUM                   (TURN_LEFT_PIXEL_NUM + TURN_RIGHT_PIXEL_NUM)//58 //кол-во LED на стоп
+#define   SIDE_PIXEL_NUM                   STOP_PIXEL_NUM//58 //кол-во LED на габариты
+#define   TURN_RIGHT_INDICATOR_PIXEL_NUM   0
+#define   TURN_LEFT_INDICATOR_PIXEL_NUM    0
+#define   STOP_INDICATOR_PIXEL_NUM         0
 #define   PIXEL_NUM                        (TURN_RIGHT_INDICATOR_PIXEL_NUM + TURN_LEFT_INDICATOR_PIXEL_NUM + \
-                                            STOP_INDICATOR_PIXEL_NUM + TURN_LEFT_PIXEL_NUM + TURN_RIGHT_PIXEL_NUM)//19
+                                            STOP_INDICATOR_PIXEL_NUM + TURN_LEFT_PIXEL_NUM + TURN_RIGHT_PIXEL_NUM)//58
 
 
 //начальные LED
-#define   TURN_LEFT_INDICATOR_START   (STOP_INDICATOR_START + STOP_INDICATOR_PIXEL_NUM)//2
+#define   TURN_LEFT_INDICATOR_START   (STOP_INDICATOR_START + STOP_INDICATOR_PIXEL_NUM)//0
 #define   TURN_RIGHT_INDICATOR_START  0
 #define   STOP_INDICATOR_START        (TURN_RIGHT_INDICATOR_START + TURN_RIGHT_INDICATOR_PIXEL_NUM)//1
 #define   TURN_LEFT_PIXEL_START       (TURN_LEFT_INDICATOR_START + TURN_LEFT_INDICATOR_PIXEL_NUM)//3
@@ -25,7 +25,7 @@
 #define   STOP_PIXEL_START            TURN_LEFT_PIXEL_START//3
 #define   SIDE_PIXEL_START            TURN_LEFT_PIXEL_START//3
 
-#define   TURN_PICTURE_NUM     13
+#define   TURN_PICTURE_NUM     29
 #define   STOP_PICTURE_NUM     2
 #define   SIDE_PICTURE_NUM     1
 
